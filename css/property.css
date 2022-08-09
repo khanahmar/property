@@ -1,14 +1,35 @@
-head body {background-image:url(pics/p6.jpg) ;}
-
-header h1{color: #00A551;
-    font-size:90px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin: 20px;
+body {
+  background-image: url("/pics/p7.jpg");
+  background-color: gray;
 }
-div li{color:green ;
-    font-size:30px  ;display:inline ;
-    margin: 40px;border: 2px solid greenyellow ;
- }
-li a{text-decoration: none;
- }
- div nav h1{color:rgb(209, 30, 30); font-size: 40px;margin:10px ;}
- div nav p{color: #92a018;font-size: large;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+header h1 {
+  color: #00a551;
+  font-size: 90px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+}
+/* body */
+div ul{border:3px solid yellow ;background-color: darkgray;}
+div li {
+  color: green;
+  font-size: 30px;
+  display: inline;
+  margin: 40px;
+
+}
+
+li a {
+  text-decoration: none;
+}
+div nav h1 {
+  color: rgb(209, 30, 30);
+  font-size: 40px;
+  margin: 10px;
+}
+
+div nav p {
+  color: #92a018;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
